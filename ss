@@ -1,7 +1,3 @@
-
-	
-
-
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "Sina Hub|Bakon [EVENT 🛸]", HidePremium = false, IntroText = "Sina Hub", SaveConfig = true, ConfigFolder = "OrionTest"})
@@ -139,7 +135,7 @@ Tab:AddToggle({
 		fireclickdetector(game.Workspace.CurrentMap:FindFirstChildOfClass("Folder").Utilities["Truss"].Bounds.PickUp)
 		wait(1)
 		game.Players.LocalPlayer.Backpack["Truss"].Parent=game.Players.LocalPlayer.Character
-	    wait(1)
+	    	wait(1)
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-180.69371, 41.0075264, -262.599426, 0.999739945, 5.99310326e-08, -0.0228050891, -5.87138445e-08, 1, 5.40431984e-08, 0.0228050891, -5.26901687e-08, 0.999739945)
 		wait(1)
 		fireclickdetector(game.Workspace.CurrentMap:FindFirstChildOfClass("Folder").Utilities["Green Book"].Bounds.PickUp)
